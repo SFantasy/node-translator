@@ -1,0 +1,23 @@
+{
+  "name": "ntrans",
+  "version": "0.0.0",
+  "description": "Yet another Chinese-English translation tool written in Node.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:teenworks/node-translator.git"
+  },
+  "keywords": [
+    "translate",
+    "fanyi"
+  ],
+  "author":[{
+    "name": "fantasy",
+    "email": "fantasyshao@icloud.com",
+    "url": "http://fantasy.codes"
+  }],
+  "bin": {
+    "ntrans": "./bin/ntrans"
+  },
+  "license": "MIT"
+}
