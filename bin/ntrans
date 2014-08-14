@@ -2,4 +2,6 @@
 
 var pkg = require('../index');
 
-pkg();
+var param = process.argv[2] ? process.argv[2] : '';
+
+pkg(param);

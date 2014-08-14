@@ -11,13 +11,19 @@
     "translate",
     "fanyi"
   ],
-  "author":[{
-    "name": "fantasy",
-    "email": "fantasyshao@icloud.com",
-    "url": "http://fantasy.codes"
-  }],
+  "author": [
+    {
+      "name": "fantasy",
+      "email": "fantasyshao@icloud.com",
+      "url": "http://fantasy.codes"
+    }
+  ],
   "bin": {
     "ntrans": "./bin/ntrans"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "color": "~0.7.1",
+    "request": "~2.40.0"
+  }
 }
