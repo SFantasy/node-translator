@@ -12,9 +12,13 @@ Yet another Chinese-English translate tool written in Node.
 ## Usage
 
 ```
-ntrans fuck
-# Sample ouput
-操
+$ ntrans professor
+
+professor
+
+美音: [prə'fɛsɚ]   英音: [prə'fesə]
+
+翻译：n. 教授；教师；公开表示信仰的人
 ```
 
 ## License
