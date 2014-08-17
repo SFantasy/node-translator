@@ -1,6 +1,6 @@
 {
   "name": "ntrans",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Yet another Chinese-English translation tool written in Node.",
   "main": "index.js",
   "repository": {
@@ -9,13 +9,18 @@
   },
   "keywords": [
     "translate",
-    "fanyi"
+    "fanyi",
+    "youdao"
   ],
   "author": [
     {
       "name": "fantasy",
       "email": "fantasyshao@icloud.com",
       "url": "http://fantasy.codes"
+    },
+    {
+      "name": "galeno",
+      "email": "lenghan1991@gmail.com"
     }
   ],
   "bin": {
@@ -24,6 +29,7 @@
   "license": "MIT",
   "dependencies": {
     "request": "~2.40.0",
-    "colors": "~0.6.2"
+    "colors": "~0.6.2",
+    "commander": "~2.3.0"
   }
 }

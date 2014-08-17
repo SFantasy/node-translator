@@ -1,17 +1,28 @@
 // Entrance of the package
 //
 // Module dependencies
-var request = require('request');
+var request = require('request'),
+    program = require('commander');
 
 var lib = require('./lib'),
-config = require('./config');
-
-var url = config.src;
+    url = require('./config').src;
 
 module.exports = function(param) {
-  
-  if (param.length == 0) {
-    console.log('[Warning]'.yellow + "Nothing to be translated");
+
+  program
+    .version('0.1.3')
+    .usage('[word to be translated]');
+
+  program.on('--help', function() {
+    console.log('  Example:');
+    console.log('\n  $ ntrans professor\n');
+  });
+
+  program.parse(process.argv);
+
+  if (param.length === 0) {
+    program.help();
+
     return;
   }
 
