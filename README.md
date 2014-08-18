@@ -23,34 +23,13 @@ Yet another Chinese-English translate tool written in Node.
 ## Usage
 
 ```
-$ ntrans professor
+$ ntrans chrome
 
-professor
+ chrome
 
-美音: [prə'fɛsɚ]   英音: [prə'fesə]
+ 美音: [krom]   英音: [krəʊm]
 
-翻译：n. 教授；教师；公开表示信仰的人
-_____
-$ ntrans 上
-
-上
-
-拼音：[shǎng,shàng]
-
-翻译：up,get on,good,superior
-_____
-$ ntrans 神
-
-神
-
-拼音：[shén]
-
-翻译：deity,spirit,divinity,omniscience,God
-____
-ntrans 色总
-
-[Warning]No translation fit for the word [色总]
-
+ 翻译：n. 铬，铬合金；铬黄；谷歌浏览器
 ```
 
 ## License
