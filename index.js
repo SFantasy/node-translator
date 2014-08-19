@@ -31,10 +31,8 @@ module.exports = function(param) {
 
     if (!err && res.statusCode === 200) {
       data = JSON.parse(body);
-      if (data.errorCode == 0 && data.basic != null) {
+      if (data.errorCode == 0) {
         lib.output(data);
-      } else if(data.errorCode == 0 && data.basic  == null) {
-        console.log('[Warning]'.yellow + 'No translation fit for the word ' + ('[' + param + ']').red);
       } else {
         console.error('[ERROR]'.red + ' Youdao API request error.');
       }
