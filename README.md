@@ -12,6 +12,8 @@ node-translator
 [david-image]: https://img.shields.io/david/teenworks/node-translator.svg?style=flat
 [david-url]: https://david-dm.org/teenworks/node-translator
 
+[![NPM](https://nodei.co/npm/ntrans.png?downloads&downloadRank)](https://nodei.co/npm/ntrans/)
+
 Yet another Chinese-English translate tool written in Node.
 
 ## Install
