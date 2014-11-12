@@ -7,10 +7,10 @@ node-translator
 
 [npm-image]: https://img.shields.io/npm/v/ntrans.svg?style=flat
 [npm-url]: https://npmjs.org/package/ntrans
-[travis-image]: https://img.shields.io/travis/teenworks/node-translator.svg?style=flat
-[travis-url]: https://travis-ci.org/teenworks/node-translator
-[david-image]: https://img.shields.io/david/teenworks/node-translator.svg?style=flat
-[david-url]: https://david-dm.org/teenworks/node-translator
+[travis-image]: https://img.shields.io/travis/SFantasy/node-translator.svg?style=flat
+[travis-url]: https://travis-ci.org/SFantasy/node-translator
+[david-image]: https://img.shields.io/david/SFantasy/node-translator.svg?style=flat
+[david-url]: https://david-dm.org/SFantasy/node-translator
 
 [![NPM](https://nodei.co/npm/ntrans.png?downloads&downloadRank)](https://nodei.co/npm/ntrans/)
 
