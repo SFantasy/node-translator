@@ -28,8 +28,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "colors": "^0.6.2",
-    "commander": "^2.3.0",
+    "colors": "^1.0.3",
+    "commander": "^2.5.0",
     "request": "^2.51.0"
   }
 }
