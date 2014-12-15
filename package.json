@@ -1,6 +1,6 @@
 {
   "name": "ntrans",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Yet another Chinese-English translation tool written in Node.",
   "main": "index.js",
   "repository": {
@@ -28,8 +28,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "request": "^2.40.0",
-    "colors": "~0.6.2",
-    "commander": "~2.3.0"
+    "colors": "^0.6.2",
+    "commander": "^2.3.0",
+    "request": "^2.51.0"
   }
 }
