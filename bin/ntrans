@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var pkg = require('../index');
+var pkg = require('../compiled');
 
 var param = process.argv[2] ? process.argv[2] : '';
 

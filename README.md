@@ -34,6 +34,14 @@ $ ntrans chrome
  翻译：n. 铬，铬合金；铬黄；谷歌浏览器
 ```
 
+## Develop
+
+`node-translator` has been refactored with ECMAScript 6 using [babeljs](https://babeljs.io).
+
+1. Clone the project from github
+2. Run `npm install` to install dependencies
+3. Run `npm run build` to build package from ES6, or just run `npm run build-watch`
+
 ## License
 
 The MIT License
